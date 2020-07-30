@@ -1,0 +1,19 @@
+De facut la shop:
+[]modificare footer site (ca aici: https://shop.web-place.ro/)
+[]modificare meniu site (ca aici: https://shop.web-place.ro/)
+[]http://costi.web-place.ro/login de pus campurile cu parola type password
+[]login admin
+[]sidebar admin
+[]in loc de butoanele de edit si deletele din tabelel din admin sa fie o iconita cu un creion si un cos de gunoi
+[]desing pagina produsului la adaugare in cos (sa arate ca in template)
+[]dupa ce ai terminat o functionalitate neaparat o mai verifici odata cu atentite
+[]mesaj succes cand stergi un produs din cart
+[]formularu de modificare date utilizator nu functioneaza cum trebuie, schimba tot utilizatorii din baza de date cand trimit formularul, probabil tre sa pui un where id = $id undeva
+[]fara litere mari in link ex: http://costi.web-place.ro/MyAccount/edit si nici in numele controllerului inafara de prima litera, ex: MyAccount, ar trebui sa fie ceva de genul: Cont
+[]in sesiunea de login se salveaza doar id-ul userului si o variabila is_logged_in = 1 (dupa variabila asta verifici daca e logat unde e nevoie), iar restul informatiilor le iei cand ai nevoie din db dupa id
+[]dupa ce se trimite comanda, sesiune cu cartul trebuie sa se distruga
+[]tabelul din contul meu cu comenzile facute, trebuie sa contina toate comenzile facute, buton de view (unde se deschide o pagina care are un tabel cu produsele din acea comanda) si buton de delete, unde poate sterge comanda; capete de tabel pt tabelul cu comenzi din contul meu: id, stare, detalii, sterge
+[]comada nu se salveaza bine dupa ce a fost trimisa, iti explicasem sa faci cu 2 tabele, unul in care retii id comanda, id client si id user si altul in care retii produsele din comanda, suna-ma cand ajungi la asta sa iti mai explic odata si ma tii pana intelegi, ca daca nu intelegi stai si te chinui degeaba
+[]organizare cod
+[]in general mi-a placut cum ai lucrat, trebuie insistat pe bune practici si design deocamdata
+[]dupa ce termini, sa te mai uiti odata peste tot cu atentie sa vezi daca mai e ceva
